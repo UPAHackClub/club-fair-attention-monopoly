@@ -242,6 +242,7 @@ $(document).ready(() => {
 
 	glob.processText = message => {
 		let processedColor = glob.addToQueue(message.body)
+		console.log(message.body)
 		if (processedColor) {
 			glob.addMessage(processedColor, message.from)
 		}
