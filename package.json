@@ -1,0 +1,24 @@
+{
+  "name": "club-fair-attention-monopoly",
+  "version": "0.0.1",
+  "description": "Hack Club's Club Fair Demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "socket.io": "^3.1.1",
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/upa-hackclub"
+  },
+  "license": "MIT",
+  "keywords": [
+    "webserver",
+    "webpage"
+  ]
+}
